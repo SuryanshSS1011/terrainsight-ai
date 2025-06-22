@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/*.tif
+data/*.shp
+data/*.geojson
+*.h5
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+coverage/
+.coverage
+*.cover
+
+# Build outputs
+frontend/build/
+frontend/dist/
+*.zip
+*.tar.gz
